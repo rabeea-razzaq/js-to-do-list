@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+
+.contentcontainer{
+    overflow: hidden;
+}
+.maincontent{
+    margin-top: 100px;
+}
+.createbutton{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputfield{
+    width: 40%;
+}
+.title{
+    display: none;
+}
+.addlistitem{
+    margin-top: 50px;
+    display: none;
+}
+.eachitem{
+    width: 60%;
+}
+.textcontent{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+a{
+    color:rgb(2, 107, 107);
+    margin: 10px;
+    font-weight: bold;
+    border: 1px solid teal;
+    padding: 8px;
+}
+.addmoreitems{
+    display: none;
+    margin-bottom: 20%;
+}
+li{
+    margin: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 122, 122);
+    text-align: center;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#done{
+    margin: 20px;
+}
+@media screen and (max-width:500px){
+    .eachitem{
+        width: 100%;
+    }
+    .inputfield{
+        width: 100%;
+    }
+}

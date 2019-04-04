@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="java.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>javapactice</title>
+</head>
+<body>
+    
+  <div class="contentcontainer">
+      <header>
+          <nav style="position:fixed; z-index: 2;">
+              <div class="nav-wrapper teal lighten-2">
+                  <p class="brand-logo center"><i class="material-icons medium">edit</i>Daily-To-Do's</p>
+              </div>
+          </nav>
+      </header>
+      <main >
+          <div class="maincontent">
+                <div class=" z-depth-4 container createbutton">
+                        <button class="waves-effect waves-light btn btn-large teal lighten-2 center-align">CREATE LIST</button>
+                </div>
+                <div class="title">
+                    <div class="container inputfield">
+                        <div class="row">
+                            <div class="col s12 col m12 col l12">
+                                   <form id="createform">
+                                        <div class="input-field">
+                                            <input type="text" name="title" id="title">
+                                            <label for="title">Enter Title</label>
+                                        </div>
+                                        <button class="waves-effect waves-light btn btn-large teal lighten-2 c">Add Title</button>
+                                    </form>   
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="addlistitem" >
+                   <div class="container">
+                       <div class="row eachitem center" >
+                           <div class="col s12 col m12 col l12 " id="titlecontainer">
+                               <form id="add-listitems">
+                                   <div class="input-field">
+                                       <input type="text" id="listitem">
+                                       <label for="listitem">Add Items</label>
+                                   </div>
+                                   <button class="waves-effect waves-light btn btn-medium teal lighten-2 ">ADD ITEMS</button>   
+                               </form>
+                               <button class="waves-effect waves-light btn-floating btn-large teal lighten-2 " id="done"><i class="material-icons">check</i></button>
+                           </div>
+                       </div>  
+                   </div>
+                </div>
+                <div class="showlistitem" >
+                        <div>
+                            <div class="row eachitem center" >
+                                <div class="col s12 col m12 col l12" >
+                                   <ul id="items">
+                                      
+                                   </ul>
+                                </div>
+                            </div>  
+                        </div>
+                </div>
+                <div class="addmoreitems" >
+                    <div class="container">
+                        <div class="row eachitem center" >
+                            <div class="col s12 col m12 col l12">
+                               <button class="waves-effect waves-light btn btn-medium teal lighten-2" id="addmore">ADD MORE</button>
+                            </div>
+                        </div>  
+                    </div>
+            </div>
+          </div>
+      </main>
+      <footer  style="z-index:2;">
+          <p  style="color:aliceblue;">
+                Copyright © 2019 . All rights reserved.Proudly Created by Rabeea Razzaq
+          </p>
+      </footer>
+  </div>
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="java.js">
+        </script>
+</body>
+</html>
